@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClickcontentComponent } from './clickcontent.component';
+import { TaggledimageComponent } from './taggledimage.component';
 
-describe('ClickcontentComponent', () => {
-  let component: ClickcontentComponent;
-  let fixture: ComponentFixture<ClickcontentComponent>;
+describe('TaggledimageComponent', () => {
+  let component: TaggledimageComponent;
+  let fixture: ComponentFixture<TaggledimageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ClickcontentComponent]
+      declarations: [TaggledimageComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ClickcontentComponent);
+    fixture = TestBed.createComponent(TaggledimageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
